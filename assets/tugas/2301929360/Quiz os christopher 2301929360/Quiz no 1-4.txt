@@ -1,0 +1,4 @@
+1. mkdir -p CreaSim/{Species/{'Homo sapiens','Delphinus delphis'},'High Scores'/{'Player 1','Player 2'},Options}
+2. touch 'Creasim/'High Scores'/'Player 1'/Score.sav && chmod 764 'Creasim/'High Scores'/'Player 1'/Score.sav
+3. /CreaSim/High Scores$ find -iname 'Score.sav'
+4. ps -U root -u root u
